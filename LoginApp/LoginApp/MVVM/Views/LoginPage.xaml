@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LoginApp.MVVM.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="LoginPage"
+    BackgroundColor="WhiteSmoke">
+    <VerticalStackLayout VerticalOptions="Center">
+        <Image HeightRequest="100" Source="dotnet_bot" />
+        <Frame
+            Margin="20"
+            BackgroundColor="White"
+            BorderColor="White"
+            HasShadow="True">
+            <VerticalStackLayout Spacing="10">
+                <StackLayout>
+                    <Label FontSize="Medium" Text="Email" />
+                    <Entry
+                        x:Name="EntryEmail"
+                        FontSize="Medium"
+                        Keyboard="Email"
+                        Placeholder="Email" />
+                </StackLayout>
+                <StackLayout>
+                    <Label FontSize="Medium" Text="Senha" />
+                    <Entry
+                        x:Name="EntryPassword"
+                        FontSize="Medium"
+                        IsPassword="True"
+                        Keyboard="Default"
+                        Placeholder="Senha" />
+                </StackLayout>
+                <Button
+                    Clicked="LoginClicked"
+                    Text="Login"
+                    WidthRequest="120" />
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

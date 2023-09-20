@@ -1,0 +1,1 @@
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\LoginApp.csproj;x64
