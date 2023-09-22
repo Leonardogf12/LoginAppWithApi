@@ -8,6 +8,6 @@ namespace LoginApp.Constants
 {
     public static class StringConstants
     {
-        public const string UrlApi = "https://localhost:7136/api/User/";
+        public const string UrlApi = "https://localhost:7136/api/user/login/";
     }
 }

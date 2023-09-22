@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ApiLoginAppMaui</_PublishTargetUrl>
+    <History>False|2023-09-22T00:11:04.3626699Z;False|2023-09-21T20:53:40.0012778-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>server=localhost%3buserid=root%3bpassword=123456%3bdatabase=LoginAppDb</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

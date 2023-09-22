@@ -322,3 +322,4 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll

@@ -19,7 +19,7 @@ namespace LoginApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<User>>> GetAll() => Ok(await _context.Users.ToListAsync());
 
-        [HttpGet("{email}/{password}")]
+        [HttpGet("login/{email}/{password}")]
         public async Task<ActionResult<User>> Login(string email, string password)
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))

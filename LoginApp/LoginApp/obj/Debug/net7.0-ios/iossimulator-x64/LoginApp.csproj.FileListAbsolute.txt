@@ -267,3 +267,4 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-ios\iossimulator-x64\LoginApp.pdb
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-ios\iossimulator-x64\LoginApp.genruntimeconfig.cache
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-ios\iossimulator-x64\ref\LoginApp.dll
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-ios\iossimulator-x64\Newtonsoft.Json.dll

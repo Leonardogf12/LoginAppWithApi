@@ -1,2 +1,2 @@
-AdbTarget=-s RQCT702DM4M
+AdbTarget=-s emulator-5554
 AdbOptions=
