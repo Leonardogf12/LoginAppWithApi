@@ -4,7 +4,9 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="LoginPage"
-    BackgroundColor="WhiteSmoke">
+    BackgroundColor="WhiteSmoke"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
     <VerticalStackLayout VerticalOptions="Center">
         <Image HeightRequest="100" Source="dotnet_bot" />
         <Frame
@@ -16,24 +18,25 @@
                 <StackLayout>
                     <Label FontSize="Medium" Text="Email" />
                     <Entry
-                        x:Name="EntryEmail"
                         FontSize="Medium"
                         Keyboard="Email"
-                        Placeholder="Email" />
+                        Placeholder="Email"
+                        Text="{Binding EntryEmail}" />
                 </StackLayout>
                 <StackLayout>
                     <Label FontSize="Medium" Text="Senha" />
                     <Entry
-                        x:Name="EntryPassword"
                         FontSize="Medium"
                         IsPassword="True"
                         Keyboard="Default"
-                        Placeholder="Senha" />
+                        Placeholder="Senha"
+                        Text="{Binding EntryPassword}" />
                 </StackLayout>
                 <Button
-                    Clicked="LoginClicked"
+                    Command="{Binding LoginCommand}"
                     Text="Login"
                     WidthRequest="120" />
+                <ActivityIndicator IsRunning="{Binding IsBusy}" />
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>

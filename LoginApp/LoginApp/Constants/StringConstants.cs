@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LoginApp.Constants
+﻿namespace LoginApp.Constants
 {
     public static class StringConstants
     {
-        public const string UrlApi = "https://localhost:7136/api/user/login/";
+        public const string UrlApi = $"http://192.168.15.65:8181/api/User/login/";
+
+        public const string UserLogged = "UserLogged";
+        
+        public const string Anonymous = "Anônimo";
+
     }
 }

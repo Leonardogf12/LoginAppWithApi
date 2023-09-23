@@ -28,11 +28,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = LoginApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[S:/PROJETOS/Projetos MAUI/LoginAppWithApi/LoginAppWithApi/LoginApp/LoginApp/MVVM/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginApp.MVVM.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\HomePage.xaml
+
 [S:/PROJETOS/Projetos MAUI/LoginAppWithApi/LoginAppWithApi/LoginApp/LoginApp/MVVM/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LoginApp.MVVM.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\LoginPage.xaml
+
+[S:/PROJETOS/Projetos MAUI/LoginAppWithApi/LoginAppWithApi/LoginApp/LoginApp/MVVM/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginApp.MVVM.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ProfilePage.xaml
 
 [S:/PROJETOS/Projetos MAUI/LoginAppWithApi/LoginAppWithApi/LoginApp/LoginApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

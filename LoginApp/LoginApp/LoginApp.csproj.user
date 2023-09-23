@@ -17,7 +17,13 @@
     <MauiXaml Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ProfilePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

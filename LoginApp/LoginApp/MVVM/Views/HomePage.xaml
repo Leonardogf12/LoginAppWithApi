@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LoginApp.MVVM.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Home">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False" />
+    </Shell.BackButtonBehavior>
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            x:Name="ToolbarItemProfile"
+            Clicked="ToolbarItemProfile_Clicked"
+            Order="Secondary"
+            Text="Perfil" />
+        <ToolbarItem
+            x:Name="ToolbarItemLogout"
+            Clicked="ToolbarItemLogout_Clicked"
+            Order="Secondary"
+            Text="Sair" />
+    </ContentPage.ToolbarItems>
+
+
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label
+            HorizontalOptions="Center"
+            Text="Home"
+            VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

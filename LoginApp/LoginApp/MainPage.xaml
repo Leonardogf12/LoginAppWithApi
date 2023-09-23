@@ -6,13 +6,7 @@
 
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
-
-            <Button
-                x:Name="BtnLogout"
-                Clicked="OnLogoutClicked"
-                HorizontalOptions="Center"
-                Text="Logout" />
-
+            <Label Text="MainPage" />
         </VerticalStackLayout>
     </ScrollView>
 

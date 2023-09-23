@@ -45,7 +45,5 @@ namespace LoginApi.Controllers
             return BadRequest("Invalid request");
         }
 
-
-
     }
 }

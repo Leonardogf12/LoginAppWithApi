@@ -1,4 +1,6 @@
-﻿using LoginApp.MVVM.Models;
+﻿using LoginApp.Constants;
+using LoginApp.MVVM.Models;
+using LoginApp.MVVM.Views;
 using Newtonsoft.Json;
 
 namespace LoginApp
@@ -12,20 +14,32 @@ namespace LoginApp
             InitializeComponent();
 
             MainPage = new AppShell();
+
+            InitializeApp();
+        }
+
+        private async void InitializeApp()
+        {
+            if (Preferences.ContainsKey(StringConstants.UserLogged))
+            {
+                await App.Current.MainPage.Navigation.PushAsync(new HomePage());
+                return;
+            }
         }
 
         public static void RemoveUserDetailsFromPreferences()
         {
-            if (Preferences.ContainsKey(nameof(App.UserDetails)))
+            if (Preferences.ContainsKey(StringConstants.UserLogged))
             {
-                Preferences.Remove(nameof(App.UserDetails));
+                Preferences.Remove(StringConstants.UserLogged);
             }
         }
 
         public static void AddUserDetailsOnPreferences(object obj)
         {
             string userDetails = JsonConvert.SerializeObject(obj);
-            Preferences.Set(nameof(App.UserDetails), userDetails);
+
+            Preferences.Set(StringConstants.UserLogged, userDetails);
         }
     }
 }
