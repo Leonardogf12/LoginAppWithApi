@@ -1,5 +1,4 @@
-﻿using AndroidX.Fragment.App.StrictMode;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace LoginApp.MVVM.ViewModels
