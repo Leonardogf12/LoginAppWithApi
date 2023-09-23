@@ -23,6 +23,7 @@ public partial class ProfilePage : ContentPage
     public ProfilePage()
     {
         InitializeComponent();
+
         if (Preferences.ContainsKey(StringConstants.UserLogged))
         {
             var user = Preferences.Get(StringConstants.UserLogged, StringConstants.Anonymous);

@@ -11,6 +11,7 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -257,4 +258,3 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\LoginApp.pdb
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\LoginApp.genruntimeconfig.cache
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\LoginApp.dll
-S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll

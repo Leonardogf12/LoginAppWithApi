@@ -32,6 +32,7 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
@@ -322,4 +323,3 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
