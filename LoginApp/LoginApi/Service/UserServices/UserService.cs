@@ -17,7 +17,7 @@ namespace LoginApi.Service.UserServices
         {
             return await _context.Users.FirstOrDefaultAsync(x => x.Email!.ToLower()
                                                                 .Equals(email!.ToLower())
-                                                                && x.Password == password)?? new ();
+                                                                && x.Password == password);
         }
     }
 }
