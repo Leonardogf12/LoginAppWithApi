@@ -87,3 +87,4 @@ S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApi\obj\
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApi\obj\Release\net6.0\LoginApi.pdb
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApi\obj\Release\net6.0\LoginApi.genruntimeconfig.cache
 S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApi\obj\Release\net6.0\ref\LoginApi.dll
+S:\PROJETOS\Projetos MAUI\LoginAppWithApi\LoginAppWithApi\LoginApp\LoginApi\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

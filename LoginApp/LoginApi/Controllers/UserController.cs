@@ -16,22 +16,10 @@ namespace LoginApi.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<ActionResult<List<User>>> GetAll() => Ok(await _context.Users.ToListAsync());
 
-        [HttpGet("login/{email}/{password}")]
-        public async Task<ActionResult<User>> Login(string email, string password)
-        {
-            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
-                return BadRequest("Invalid request");
-
-            var user = await _context.Users.FirstOrDefaultAsync(x => x.Email!.ToLower().Equals(email.ToLower()) 
-                                                                && x.Password == password); 
-
-            return user != null ? Ok(user) : NotFound("User ot found");            
-        }
-
-        [HttpPost]
+        [HttpPost("Add")]
         public async Task<ActionResult<User>> Add(User user)
         {
             if (user != null)
@@ -43,6 +31,30 @@ namespace LoginApi.Controllers
             }
 
             return BadRequest("Invalid request");
+        }
+
+        [HttpPost("Delete")]
+        public async Task<ActionResult<User>> Delete(User user)
+        {
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpPost("Update")]
+        public async Task<ActionResult<User>> Update(User user)
+        {
+            if (user.Id == 0 || user == null) return BadRequest("Usuário não encontrado.");
+          
+            if(ModelState.IsValid)
+            {
+                _context.Update(user);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+
+            return BadRequest("Ocorreu um erro inesperado. Tente novamente em alguns instantes.");
         }
 
     }
