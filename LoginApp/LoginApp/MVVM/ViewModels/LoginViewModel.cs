@@ -51,7 +51,7 @@ namespace LoginApp.MVVM.ViewModels
                     if (user == null)
                     {
                         IsBusy = false;
-                        await App.Current.MainPage.DisplayAlert("Login", "Ocorreu um erro inesperado.", "OK");
+                        await App.Current.MainPage.DisplayAlert("Login", "Email ou senha inválidos", "OK");
                         return;
                     }
 
